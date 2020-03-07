@@ -1,0 +1,76 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Comic Sans MS", sans-serif;
+  padding:0;
+  margin:0;
+  background: #fff;
+  color: #222;
+}
+
+.wrapper {
+  padding:12vw 7vw 7vw;
+  margin:0;
+  text-align:center;
+  font-size: 1.25rem;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 2.5rem;
+  background: YELLOW;
+  height:1.5rem;
+  line-height: 1.25rem;
+}
+.button-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+.wrapper a, button {
+  font-family: "Comic Sans MS", sans-serif;
+  display:block;
+  padding:0.5rem;
+  margin:1.5rem auto 1rem;
+  background: BLACK;
+  color:#fff;
+  text-decoration:none;
+  letter-spacing: 0.25rem;
+  font-size: 2rem;
+  width:12rem;
+  border:0;
+  border-radius:0.5rem;
+  transition: 0.15s ease-in-out;
+}
+
+input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+ul, li {
+  list-style-type:none;
+  padding:0;
+  margin:0;
+}
+
+.player iframe {
+  display:block;
+  width:300px;
+  margin:0 auto;
+}
+
+.wrapper-2 {
+  display:none;
+}
+
+@media only screen and (orientation: landscape) {
+  .wrapper-2 {
+    display:bl;
+  }
+}
